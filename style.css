@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-box{
+    height: 45vh;
+    width: 45vw;
+    margin-top: 20vh;
+    border: 2px solid black;
+} 
+.box-top{
+    width: 100%;
+    height:25%;
+}
+#box_logo{
+    height: 100%;
+    width: 100%;
+    background-image: url("logo-nec.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+.midle-box{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-top: 20px;
+}
+.student-photo-box{
+    height: 100%;
+    width: 15%;
+    /* background-color: beige; */
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.student-photo{
+    height: 70%;
+    width: 100%;
+    border: 2px solid black;
+    color: black;
+    font-size: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.student-information{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    gap:20px;
+}
+.student-information h3{
+    font-weight: 800;
+    font-size: 1rem;
+    color: red;
+}
+.student-information-outer-box{
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    width: 100%;
+}
+.information-box p{
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+.box1 p{
+    color: red;
+}
+.box1{
+    margin-left: 20px;
+}
+.student-photo-box p{
+    margin-top: 10px;
+    font-size: 0.85rem;
+
+}
+.box-last{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+#end{
+    margin-left: 100px;
+}
+.bottum-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.right{
+    width: 80%;
+    background-color: rgb(131, 8, 161);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    font-weight: 800;
+    color: white;
+}
+.left{
+    width: 20%;
+    background-color: yellowgreen;
+    text-align: center;
+}
